@@ -58,9 +58,9 @@ Equivariant models trained on materials QM data for materials simulations
 | BERT | GP bidirectional transformer language model | - | 652 kg |
 | BERT-QA | Fine-tuned for extractive question-answering tasks | - | 46.4 g |
 | MechBERT Cased | Pretrained on MechEng literature | 600 GPU | 188.77 kg |
-| BERT-MechQA | Fined-tuned for MechEng question-answering tasks | < 4 GPU | 1.26 kg |
-| XLNet-MechQA |  | < 4 GPU | 1.26 kg |
-| Llama-MechQA |  | 16 GPU | 5.03 kg |
+| BERT-MechQA | Fined-tuned for | < 4 GPU | 1.26 kg |
+| XLNet-MechQA | MechEng question-answering | < 4 GPU | 1.26 kg |
+| Llama-MechQA | tasks | 16 GPU | 5.03 kg |
 | Llama 3.1-405B | Meta GP-LLM with 405B and | 30.84 M GPU | 8,930 tons |
 | Llama 3.1-70B | 70B parameters | 7M GPU | 2,040 tons |
 | Olmo 3-32B | AI2 GP-LLM with 32B and | 1.12 M GPU | 502,871 tons |
