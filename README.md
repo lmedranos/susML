@@ -6,6 +6,10 @@
 ## About
 Artificial intelligence is transforming molecular and materials science, but its growing computational and data demands raise critical sustainability challenges. In this Perspective, we examined resource considerations across the AI-driven discovery pipeline, building on discussions from the **SusML workshop: Towards sustainable exploration of chemical spaces with machine learning** held in Dresden, Germany. 
 
+<p align="center">
+<img width="600" alt="workflow" src="img/susml.png" />
+</p>
+
 ## Carbon footprint in the AI-driven discovery pipeline
 
 As part of this perspective, we compiled a table reporting the estimated carbon footprint of representative examples spanning quantum-mechanical datasets generation, machine-learning force fields, large language models, and quantitative structure-property/activity relationship models. Carbon footprints were estimated using the [![link](https://img.shields.io/badge/%F0%9F%8C%B1%20Green%20Algorithm-E8F5E9)](https://calculator.green-algorithms.org/) framework, a web-based initiative that allow researchers to estimate the environmental impact of computational workloads based on parameters such as runtime, number of cores/GPUs used, memory, location, etc.
@@ -14,9 +18,9 @@ We invite the community to contribute their own data by adding new entries to th
 
 ### Quantum-Mechanical Dataset Generation
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | 
-|---|---|---:|---:|
-| QM7-X | $\approx$ 4.2 M small molecules | 3.27 M CPU | 9.14 tons |
+| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. | 
+|---|---|---:|---:|---:| 
+| QM7-X | $\approx$ 4.2 M small molecules | 3.27 M CPU | 9.14 tons | [Hoja et al. (2021)](https://www.nature.com/articles/s41597-021-00812-2)| 
 | ANI-1x/1ccx | $\approx$ 5.5 M small molecules | 14 M CPU | 32.23 tons |
 | GEMS | $\approx$ 3 M molecular building blocks and biomolecular fragments | 576 M CPU | 12,800 tons |
 | QUED-LD50 | $\approx$ 3.6 M drug-like molecules | 314 k CPU | 1.34 tons |
