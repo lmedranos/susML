@@ -21,10 +21,10 @@ We invite the community to contribute their own data by adding new entries to th
 | Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. | 
 |---|---|---:|---:|---:| 
 | QM7-X | $\approx$ 4.2 M small molecules | 3.27 M CPU | 9.14 tons | [Hoja et al. (2021)](https://www.nature.com/articles/s41597-021-00812-2)| 
-| ANI-1x/1ccx | $\approx$ 5.5 M small molecules | 14 M CPU | 32.23 tons |
-| GEMS | $\approx$ 3 M molecular building blocks and biomolecular fragments | 576 M CPU | 12,800 tons |
-| QUED-LD50 | $\approx$ 3.6 M drug-like molecules | 314 k CPU | 1.34 tons |
-| OMol25 | $\approx$ 140 M diverse molecular systems | 6.6 B CPU | 20,600 tons |
+| ANI-1x/1ccx | $\approx$ 5.5 M small molecules | 14 M CPU | 32.23 tons | [Smith et al. (2020)](https://www.nature.com/articles/s41597-020-0473-z)|
+| GEMS | $\approx$ 3 M molecular building blocks and biomolecular fragments | 576 M CPU | 12,800 tons |[Unke et al. (2024)](https://www.science.org/doi/10.1126/sciadv.adn4397)|
+| QUED-LD50 | $\approx$ 3.6 M drug-like molecules | 314 k CPU | 1.34 tons | [Hinostroza et al. (2026)](https://pubs.rsc.org/dd/article/5/2/803/312878/Assessing-the-performance-of-quantum-mechanical)|
+| OMol25 | $\approx$ 140 M diverse molecular systems | 6.6 B CPU | 20,600 tons | [Levine et al. (2025)](https://arxiv.org/abs/2505.08762)|
 | Materials Project | $\approx$ 785 k materials and molecules | 965 M CPU | 18,900 tons |
 | OMat24 | $\approx$ 118 M materials | 400 M CPU | 1,250 tons |
 | MAD-1.5 | $\approx$ 216 k materials and molecules | 40 M CPU | 30 tons |
