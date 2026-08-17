@@ -1,7 +1,7 @@
 [![paper-link](https://img.shields.io/badge/arXiv-2604.00069-%23B31B1B
 )](https://doi.org/10.48550/arXiv.2604.00069)
 
-# Perspective: Towards sustainable exploration of chemical spaces with machine learning
+# SusML Benchmark: What Is the Carbon Footprint of Your AI Model and QM Dataset?
 
 ## About
 Artificial intelligence is transforming molecular and materials science, but its growing computational and data demands raise critical sustainability challenges. In this Perspective, we examined resource considerations across the AI-driven discovery pipeline, building on discussions from the **SusML workshop: Towards sustainable exploration of chemical spaces with machine learning** held in Dresden, Germany. 
@@ -14,7 +14,7 @@ Artificial intelligence is transforming molecular and materials science, but its
 
 As part of this perspective, we compiled a table reporting the estimated carbon footprint of representative examples spanning quantum-mechanical datasets generation, machine-learning force fields, large language models, and quantitative structure-property/activity relationship models. Carbon footprints were estimated using the [![link](https://img.shields.io/badge/%F0%9F%8C%B1%20Green%20Algorithm-E8F5E9)](https://calculator.green-algorithms.org/) framework, a web-based initiative that allow researchers to estimate the environmental impact of computational workloads based on parameters such as runtime, number of cores/GPUs used, memory, location, etc.
 
-We invite the community to contribute their own data by adding new entries to this `README` file and submitting a pull request. By collectively reporting computational requirements alongside model performance, we aim to establish a living, community-driven resource for comparing the computational and environmental costs of machine-learning approaches and to encourage more transparent and sustainable computational practices in the field.
+We invite the community to contribute their own data by adding new entries to this `README` file and submitting a pull request. By collectively reporting computational requirements alongside model performance, we aim to establish a living, community-driven resource for comparing the computational and environmental costs of machine learning approaches and to encourage more transparent and sustainable computational practices in the field.
 
 ### Quantum-Mechanical Dataset Generation
 
@@ -25,35 +25,35 @@ We invite the community to contribute their own data by adding new entries to th
 | GEMS | $\approx$ 3 M molecular building blocks and biomolecular fragments | 576 M CPU | 12,800 tons |[Unke et al. (2024)](https://www.science.org/doi/10.1126/sciadv.adn4397)|
 | QUED-LD50 | $\approx$ 3.6 M drug-like molecules | 314 k CPU | 1.34 tons | [Hinostroza et al. (2026)](https://pubs.rsc.org/dd/article/5/2/803/312878/Assessing-the-performance-of-quantum-mechanical)|
 | OMol25 | $\approx$ 140 M diverse molecular systems | 6.6 B CPU | 20,600 tons | [Levine et al. (2025)](https://arxiv.org/abs/2505.08762)|
-| Materials Project | $\approx$ 785 k materials and molecules | 965 M CPU | 18,900 tons |
-| OMat24 | $\approx$ 118 M materials | 400 M CPU | 1,250 tons |
-| MAD-1.5 | $\approx$ 216 k materials and molecules | 40 M CPU | 30 tons |
-| **+ Add entry** |  |  |  |
+| Materials Project | $\approx$ 785 k materials and molecules | 965 M CPU | 18,900 tons | [Horton et al. (2025)](https://www.nature.com/articles/s41563-025-02272-0)|
+| OMat24 | $\approx$ 118 M materials | 400 M CPU | 1,250 tons | [Barros-Luque et al. (2026)](https://www.nature.com/articles/s43588-026-00996-w)|
+| MAD-1.5 | $\approx$ 216 k materials and molecules | 40 M CPU | 30 tons | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
+| **+ Add entry** |  |  |  |  |
 
 ### General-Purpose Machine Learning Interatomic Portentials
 
 #### (Bio)molecular simulations
 Equivariant models trained on molecular QM data for (bio) molecular simulations
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | 
-|---|---|---:|---:|
-| MACE-OFF23(L) |  | 336 GPU | 28.34 kg |
-| MACE-POLAR1(M) |  | 15,360 GPU | 2.75 tons |
-| MACE-POLAR1(L) |  | 23,040 GPU | 4.13 tons |
-| SO3LR |  | 86 GPU | 12.81 kg |
-| **+ Add entry** |  |  |  |
+| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. | 
+|---|---|---:|---:|---:|
+| MACE-OFF23(L) |  | 336 GPU | 28.34 kg | [Kovacs et al. (2025)](https://pubs.acs.org/jacsat/article/147/21/17598/3736678/MACE-OFF-Short-Range-Transferable-Machine-Learning)|
+| MACE-POLAR1(M) |  | 15,360 GPU | 2.75 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
+| MACE-POLAR1(L) |  | 23,040 GPU | 4.13 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
+| SO3LR |  | 86 GPU | 12.81 kg | [Kabylda et al. (2025)](https://pubs.acs.org/jacsat/article/147/37/33723/3739037/Molecular-Simulations-with-a-Pretrained-Neural)|
+| **+ Add entry** |  |  |  |  |
 
 #### Materials
 Equivariant models trained on materials QM data for materials simulations
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | 
-|---|---|---:|---:|
-| MACE-MP-0 |  | 2,600 GPU | 236.62 kg |
-| GRACE-1L-OMAT |  | 400 GPU | 73.67 kg |
-| GRACE-2L-OMAT-L |  | 700 GPU | 128.92 kg |
-| PET-MAD-XS |  | 143 GPU | 5 kg |
-| PET-MAD-S |  | 190 GPU | 7.5 kg |
-| **+ Add entry** |  |  |  |
+| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. |
+|---|---|---:|---:|---:|
+| MACE-MP-0 |  | 2,600 GPU | 236.62 kg | [Batatia et al. (2025)](https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267/A-foundation-model-for-atomistic-materials)|
+| GRACE-1L-OMAT |  | 400 GPU | 73.67 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
+| GRACE-2L-OMAT-L |  | 700 GPU | 128.92 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
+| PET-MAD-XS |  | 143 GPU | 5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
+| PET-MAD-S |  | 190 GPU | 7.5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
+| **+ Add entry** |  |  |  |  |
 
 ### Large Language Models
 
@@ -82,3 +82,17 @@ Equivariant models trained on materials QM data for materials simulations
 | QUED-D$_\text{QM}$ | Regression model trained | 14.9 CPU | 89 g | 
 | QUED-SOAP | on QUED-LD50 dataset | 7.16 k CPU | 33.86 kg | 
 | **+ Add entry** |  |  |  |
+
+
+## Citations
+If you use the dataset please cite
+```
+@article{susml,
+      title={Perspective: Towards sustainable exploration of chemical spaces with machine learning}, 
+      author={ Medrano Sandonas, Leonardo and David Balcells and Anton Bochkarev and Jacqueline M. Cole and Volker L. Deringer and Werner Dobrautz and Adrian Ehrenhofer and Thorben Frank and Pascal Friederich and Rico Friedrich and Janine George and Luca Ghiringhelli and Alejandra Hinostroza Caldas and Veronika Juraskova and Hannes Kneiding and Yury Lysogorskiy and Johannes T. Margraf and Hanna Türk and Anatole von Lilienfeld and Milica Todorović and Alexandre Tkatchenko and Mariana Rossi and Gianaurelio Cuniberti},
+      year={2026},
+      journal={arXiv preprint arXiv:2604.00069},
+    note={https://arxiv.org/abs/2604.00069}, 
+}
+```
+
