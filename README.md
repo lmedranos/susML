@@ -35,53 +35,53 @@ We invite the community to contribute their own data by adding new entries to th
 #### (Bio)molecular simulations
 Equivariant models trained on molecular QM data for (bio) molecular simulations
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. | 
-|---|---|---:|---:|---:|
-| MACE-OFF23(L) |  | 336 GPU | 28.34 kg | [Kovacs et al. (2025)](https://pubs.acs.org/jacsat/article/147/21/17598/3736678/MACE-OFF-Short-Range-Transferable-Machine-Learning)|
-| MACE-POLAR1(M) |  | 15,360 GPU | 2.75 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
-| MACE-POLAR1(L) |  | 23,040 GPU | 4.13 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
-| SO3LR |  | 86 GPU | 12.81 kg | [Kabylda et al. (2025)](https://pubs.acs.org/jacsat/article/147/37/33723/3739037/Molecular-Simulations-with-a-Pretrained-Neural)|
-| **+ Add entry** |  |  |  |  |
+| Name | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. | 
+|---|---:|---:|---:|
+| MACE-OFF23(L) | 336 GPU | 28.34 kg | [Kovacs et al. (2025)](https://pubs.acs.org/jacsat/article/147/21/17598/3736678/MACE-OFF-Short-Range-Transferable-Machine-Learning)|
+| MACE-POLAR1(M) | 15,360 GPU | 2.75 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
+| MACE-POLAR1(L) | 23,040 GPU | 4.13 tons | [Batatia et al. (2026)](https://arxiv.org/abs/2602.19411)|
+| SO3LR | 86 GPU | 12.81 kg | [Kabylda et al. (2025)](https://pubs.acs.org/jacsat/article/147/37/33723/3739037/Molecular-Simulations-with-a-Pretrained-Neural)|
+| **+ Add entry** |  |  |  |
 
 #### Materials
 Equivariant models trained on materials QM data for materials simulations
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. |
-|---|---|---:|---:|---:|
-| MACE-MP-0 |  | 2,600 GPU | 236.62 kg | [Batatia et al. (2025)](https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267/A-foundation-model-for-atomistic-materials)|
-| GRACE-1L-OMAT |  | 400 GPU | 73.67 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
-| GRACE-2L-OMAT-L |  | 700 GPU | 128.92 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
-| PET-MAD-XS |  | 143 GPU | 5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
-| PET-MAD-S |  | 190 GPU | 7.5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
-| **+ Add entry** |  |  |  |  |
+| Name | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. |
+|---|---:|---:|---:|
+| MACE-MP-0 | 2,600 GPU | 236.62 kg | [Batatia et al. (2025)](https://pubs.aip.org/aip/jcp/article/163/18/184110/3372267/A-foundation-model-for-atomistic-materials)|
+| GRACE-1L-OMAT | 400 GPU | 73.67 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
+| GRACE-2L-OMAT-L | 700 GPU | 128.92 kg | [Lysogorskiy et al. (2026)](https://www.nature.com/articles/s41524-026-01979-1)|
+| PET-MAD-XS | 143 GPU | 5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
+| PET-MAD-S | 190 GPU | 7.5 kg | [Malosso et al. (2026)](https://arxiv.org/abs/2603.02089)|
+| **+ Add entry** |  |  |  |
 
 ### Large Language Models
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | 
-|---|---|---:|---:|
-| BERT | GP bidirectional transformer language model | - | 652 kg |
-| BERT-QA | Fine-tuned for extractive question-answering tasks | - | 46.4 g |
-| MechBERT Cased | Pretrained on MechEng literature | 600 GPU | 188.77 kg |
-| BERT-MechQA | Fined-tuned for | < 4 GPU | 1.26 kg |
-| XLNet-MechQA | MechEng question-answering | < 4 GPU | 1.26 kg |
-| Llama-MechQA | tasks | 16 GPU | 5.03 kg |
-| Llama 3.1-405B | Meta GP-LLM with 405B and | 30.84 M GPU | 8,930 tons |
-| Llama 3.1-70B | 70B parameters | 7M GPU | 2,040 tons |
-| Olmo 3-32B | AI2 GP-LLM with 32B and | 1.12 M GPU | 502,871 tons |
-| Olmo 3-7B | 7B parameters | 246.5 k GPU | 104,701 tons |
-| **+ Add entry** |  |  |  |
+| Name | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. |
+|---|---:|---:|---:|
+| BERT |  - | 652 kg | [Devlin et al. (2019)](https://arxiv.org/abs/1810.04805)|
+| BERT-QA | - | 46.4 g | [Sipila et al. (2025)](https://www.nature.com/articles/s43246-025-00979-w)|
+| MechBERT Cased | 600 GPU | 188.77 kg | [Kumar et al. (2025)](https://pubs.acs.org/jcisd8/article/65/4/1873/3686381/MechBERT-Language-Models-for-Extracting-Chemical)|
+| BERT-MechQA | < 4 GPU | 1.26 kg | [Zhang et al. (2026)](https://pubs.acs.org/jcisd8/article/66/7/3840/5138343/Automatic-Generation-of-a-Mechanical-Properties)|
+| XLNet-MechQA | < 4 GPU | 1.26 kg | [Zhang et al. (2026)](https://pubs.acs.org/jcisd8/article/66/7/3840/5138343/Automatic-Generation-of-a-Mechanical-Properties)|
+| Llama-MechQA | 16 GPU | 5.03 kg | [Zhang et al. (2026)](https://pubs.acs.org/jcisd8/article/66/7/3840/5138343/Automatic-Generation-of-a-Mechanical-Properties)|
+| Llama 3.1-405B | 30.84 M GPU | 8,930 tons | [Llama team (2024)](https://arxiv.org/abs/2407.21783)|
+| Llama 3.1-70B | 7M GPU | 2,040 tons | [Llama team (2024)](https://arxiv.org/abs/2407.21783)|
+| Olmo 3-32B | 1.12 M GPU | 502,871 tons | [Olmo team (2026)](https://arxiv.org/abs/2512.13961)|
+| Olmo 3-7B | 246.5 k GPU | 104,701 tons | [Olmo team (2026)](https://arxiv.org/abs/2512.13961)|
+| **+ Add entry** |  |  |
 
 ### Quantitative Structure-Property Relationships
 
-| Name | Description | Computing time [hrs] | Carbon footprint [CO₂e] | 
-|---|---|---:|---:|
-| SISSO(10F) | - | - | 8.18 g | 
-| SISSO(50F) | - | - | 492.42 g | 
-| ENINet | Regression model trained | 6.5 GPU | 1.27 kg | 
-| SchNet | on QM9 dataset | 21 GPU | 4.79 kg | 
-| QUED-D$_\text{QM}$ | Regression model trained | 14.9 CPU | 89 g | 
-| QUED-SOAP | on QUED-LD50 dataset | 7.16 k CPU | 33.86 kg | 
-| **+ Add entry** |  |  |  |
+| Name | Computing time [hrs] | Carbon footprint [CO₂e] | Ref. |
+|---|---:|---:|---:|
+| SISSO(10F) | - | 8.18 g | - |
+| SISSO(50F) | - | 492.42 g | - | 
+| ENINet | 6.5 GPU | 1.27 kg |  [Mao et al. (2025)](https://pubs.acs.org/jctcce/article/21/16/7954/3693394/Molecule-Graph-Networks-with-Many-Body-Equivariant)|
+| SchNet | 21 GPU | 4.79 kg |  [Ye et al. (2020)](https://pubs.acs.org/jpcafh/article/124/34/6945/1375150/Symmetrical-Graph-Neural-Network-for-Quantum)|
+| QUED-DQM | 14.9 CPU | 89 g |  [Hinostroza et al. (2026)](https://pubs.rsc.org/dd/article/5/2/803/312878/Assessing-the-performance-of-quantum-mechanical)|
+| QUED-SOAP | 7.16 k CPU | 33.86 kg | [Hinostroza et al. (2026)](https://pubs.rsc.org/dd/article/5/2/803/312878/Assessing-the-performance-of-quantum-mechanical)|
+| **+ Add entry** |  |  |
 
 
 ## Citations
