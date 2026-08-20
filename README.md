@@ -83,6 +83,8 @@ Equivariant models trained on materials QM data for materials simulations
 | QUED-SOAP | 7.16 k CPU | 33.86 kg | [Hinostroza et al. (2026)](https://pubs.rsc.org/dd/article/5/2/803/312878/Assessing-the-performance-of-quantum-mechanical)|
 | **+ Add entry** |  |  |
 
+## Contributions
+We welcome contributions! If you have a new QM dataset or AI model to add or updates to existing ones, please submit a pull request.
 
 ## Citations
 If you use the dataset please cite
